@@ -10,6 +10,7 @@ import javax.swing.JPanel;
 
 public class ExceptionGUI implements ActionListener {
 
+	// Build your window frame
 	private static JButton button1;
 	private static JButton button2;
 	private static JButton button3;
@@ -37,6 +38,7 @@ public class ExceptionGUI implements ActionListener {
 		
 	}
 	
+	// Throw exceptions
 	@Override
 	public void actionPerformed(ActionEvent e) {
 
@@ -52,6 +54,7 @@ public class ExceptionGUI implements ActionListener {
 		
 	}
 	
+	// Lots of buttons
 	private static void createButtons() {
 		
 		button1 = new JButton("ArithmeticException");
