@@ -4,6 +4,7 @@ import javax.swing.JLabel;
 
 public class ThrowExceptions {
 	
+	// Comments here
 	public static void ArithmeticEx(JLabel printMsg) {
 		try {
 			int a = 30, b = 0;
@@ -19,6 +20,7 @@ public class ThrowExceptions {
 		}
 	}
 	
+	// Comments there
 	public static void NullPointerEx(JLabel printMsg) {
 		try {
 			int a[] = null;
@@ -31,6 +33,7 @@ public class ThrowExceptions {
 		}
 	}
 	
+	//Comments everywhere
 	public static void IndexOutOfBoundsEx(JLabel printMsg) {
 		try {
 			String phrase = "This is a test!";
@@ -53,6 +56,7 @@ public class ThrowExceptions {
 		}
 	}
 	
+	// And comments here as well
 	public static void NumberFormatEx(JLabel printMsg) {
 		try {
 			int num = Integer.parseInt("akki");
